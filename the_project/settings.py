@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     #User apps
     "apis.apps.ApisConfig",
+    "snippets.apps.SnippetsConfig",
 
     #3rd party apps
     "rest_framework",
