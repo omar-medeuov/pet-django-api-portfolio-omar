@@ -1,0 +1,7 @@
+from django.urls import path
+
+from snippets.views import snippet_list
+
+urlpatterns = [
+    path("", snippet_list, name="snippet_list")
+]
